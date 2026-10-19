@@ -4,7 +4,7 @@ Run these commands before you call a slice done. Report the command and the exit
 
 ## Commands
 
-From the repo root, with Node 22 on `PATH`. This machine's binary is [`../guides/local.md`](../guides/local.md) (D14).
+From the repo root, with Node 24 on `PATH`. This machine's binary is [`../guides/local.md`](../guides/local.md) (D14).
 
 | Intent | Command |
 | --- | --- |

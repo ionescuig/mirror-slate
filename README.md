@@ -18,7 +18,7 @@ Weather does not need a Google account. The clock runs in the browser. Tasks and
 
 ## Get started
 
-You need Node 22. Run the page on a Raspberry Pi: [Run the host](docs/guides/host.md).
+You need Node 24. Run the page on a Raspberry Pi: [Run the host](docs/guides/host.md).
 
 Connect Google on that same machine: [Connect Google](docs/guides/google.md).
 

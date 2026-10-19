@@ -2,7 +2,7 @@
 
 The host is one process on a Raspberry Pi. A display opens the page. The display does not run the host.
 
-You need Node 22.
+You need Node 24.
 
 1. Copy `.env.example` to `.env`.
 2. Run `npm install`.
