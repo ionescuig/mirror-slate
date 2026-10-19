@@ -1,0 +1,22 @@
+{
+  "name": "mirror-slate",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node --env-file=.env .output/server/index.mjs",
+    "test": "node --experimental-strip-types --test ./test/*.test.ts",
+    "lint": "node --experimental-strip-types scripts/lint.ts"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.145",
+    "@nuxt/ui": "^4.12.0",
+    "nuxt": "^4.5.2",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^6.0.3"
+  }
+}

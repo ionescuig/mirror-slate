@@ -1,0 +1,12 @@
+---
+description: Keep the Google token on the host and the glass on the home LAN
+alwaysApply: true
+---
+
+## Safety
+
+The display receives rendered fields only. The token and the secret stay in `secrets/`.
+
+Canonical file: [`docs/infrastructure/safety.md`](../../docs/infrastructure/safety.md) (D4, D8, D9).
+
+Bind the host to the LAN. Do not add a login, a new Google scope, a port forward, or a public URL without a new decision.

@@ -1,0 +1,16 @@
+---
+description: Run the slice gate, update the canonical doc, keep git off until asked
+alwaysApply: true
+---
+
+## Execution
+
+A feature, a fix, or a behaviour change follows [`slice`](../../.agents/skills/slice/SKILL.md). Do not wait for the human to ask for tests, lint, review, a browser check, or a doc update (D11, D12).
+
+Ask one question only when the docs do not answer a choice that changes the glass, Google access, or the host network. Use [`grill-me`](../../.agents/skills/grill-me/SKILL.md).
+
+Prove the gate with the commands in [`quality-gates.md`](../../docs/infrastructure/quality-gates.md) and their exit codes. If the glass changed, also check the browser: desktop, 1340×800, and 800×1340 ([`browser-qa.mdc`](browser-qa.mdc)).
+
+If the slice changes a fact, update the one canonical file with [`asd-ste100`](../../.agents/skills/asd-ste100/SKILL.md).
+
+Do not start git until the human asks (D2). Do not commit a secret (D8).

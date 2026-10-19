@@ -1,0 +1,14 @@
+---
+description: Browser check for the glass — one host, three viewports, no login
+alwaysApply: false
+---
+
+## Browser QA
+
+Read this rule before the first browser call on the glass. Skip this rule when the glass does not exist yet.
+
+- Use one host. Confirm the URL responds before you open a browser. A failure means the host is down. The failure is not a login problem. There is no login (D3).
+- Check three viewports: desktop, 1340×800, and 800×1340.
+- Check the clock, today's weather, five further days, the list control, one task row or the empty state, and one event row or `Nothing scheduled.`
+- Retry once after a connection error. If the host is still down, report blocked.
+- Report what passed and what blocked.

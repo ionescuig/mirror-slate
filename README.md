@@ -26,6 +26,10 @@ Connect Google on that same machine: [Connect Google](docs/guides/google.md).
 
 The Google token stays on the machine that serves the page. The browser only receives the text it shows. Keep the page on the home network. Do not forward port 4173. The detail is [Safety](docs/infrastructure/safety.md).
 
+## How it was built
+
+Most of this project was vibecoded with a coding agent. The harness is the tests, the lint check, and the docs and rules in this repo. They are what keep that work in line.
+
 ## Develop
 
 People and coding agents start at [AGENTS.md](AGENTS.md).

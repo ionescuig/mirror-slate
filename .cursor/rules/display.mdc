@@ -1,0 +1,12 @@
+---
+description: Visual rules for the mirror-slate glass — type, color, tablet sizes
+alwaysApply: false
+---
+
+## Display
+
+Read [`PRODUCT.md`](../../PRODUCT.md) and [`DESIGN.md`](../../DESIGN.md) before you change the glass. Design work follows [`impeccable`](../../.agents/skills/impeccable/SKILL.md).
+
+The scene is a hallway glance through mirror film on a dim tablet. Tokens live in `DESIGN.md`. Regions live in [`docs/product/scope.md`](../../docs/product/scope.md).
+
+When the glass exists, check 1340×800, 800×1340, and a desktop width.

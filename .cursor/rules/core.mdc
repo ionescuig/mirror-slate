@@ -1,0 +1,35 @@
+---
+description: Core invariants for mirror-slate — the glass, the host, and the agent record
+alwaysApply: true
+---
+
+## mirror-slate
+
+The glass shows a clock, weather, one Google list, and Google Calendar. The ground is black. The type is white and gray. The host is a Raspberry Pi. Displays are a desktop and a Galaxy Tab A7 Lite (SM-T220). A display has no login.
+
+**Entry:** [`AGENTS.md`](../../AGENTS.md) points at [`docs/AGENTS.md`](../../docs/AGENTS.md). Read one row. **Names:** [`docs/glossary.md`](../../docs/glossary.md). **How:** [`.agents/README.md`](../../.agents/README.md).
+
+**Docs:** The human does not read the docs. The docs are the agent record (D12). Write them with [`asd-ste100`](../../.agents/skills/asd-ste100/SKILL.md). The host is one Nuxt 4 process (D20). Test and lint commands are in [`quality-gates.md`](../../docs/infrastructure/quality-gates.md).
+
+**A change:** follow [`slice`](../../.agents/skills/slice/SKILL.md) (D11). Tests, lint, review, a browser check, and the canonical doc update are part of done.
+
+## Invariants
+
+- Read one [`docs/AGENTS.md`](../../docs/AGENTS.md) row. Then open the doc that the row names.
+- Use the names in [`docs/glossary.md`](../../docs/glossary.md).
+- The token and the secret stay in `secrets/` (D8). The glass never receives them (D9).
+- Do not start git until the human asks (D2).
+- Visual tokens stay in `DESIGN.md` (D10).
+
+## Where to look
+
+| Need | Open |
+| --- | --- |
+| Task | `docs/AGENTS.md` (one row) |
+| Names | `docs/glossary.md` |
+| What the glass shows | `docs/product/scope.md` |
+| Look | `PRODUCT.md` · `DESIGN.md` |
+| Token and LAN | `docs/infrastructure/safety.md` |
+| Why | `docs/decisions.md` (`^### D`) |
+| Where a file goes | `docs/guides/repo-layout.md` |
+| Tests, lint, review, docs | `.agents/skills/slice/SKILL.md` |

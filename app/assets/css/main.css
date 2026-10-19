@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+}
+
+@custom-variant short (@media (width >= 801px) and (height <= 800px));
+
+html,
+body,
+#__nuxt {
+  min-height: 100vh;
+  background: #000;
+  color: #f3f5f6;
+}
+
+#nuxt-devtools-container {
+  display: none;
+}
+
+.edge-pane {
+  scrollbar-width: none;
+}
+
+.edge-pane::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,20 @@
+# Local secrets, caches, and build output. Do not commit these.
+
+secrets/
+.env
+.env.*
+!.env.example
+client_secret*.json
+credentials.json
+token.json
+node_modules/
+.nuxt/
+.output/
+.tools/
+.tools/
+.venv/
+__pycache__/
+dist/
+data/
+*.log
+.cursor/plans/
